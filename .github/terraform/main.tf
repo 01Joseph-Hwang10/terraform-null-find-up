@@ -1,6 +1,6 @@
 resource "github_repository" "repository" {
   name         = "terraform-null-find-up"
-  description  = "Set of abstracted modules to deploy resources on Google Cloud Platform"
+  description  = "Searches specified file (or files) in the current directory and all parent directories."
   homepage_url = "https://registry.terraform.io/modules/01Joseph-Hwang10/find-up/null/latest"
   topics = [
     "terraform",
