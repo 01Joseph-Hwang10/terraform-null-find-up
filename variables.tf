@@ -1,6 +1,7 @@
 
 variable "targets" {
-  description = "File or directory or list of them to search for"
+  type        = list(string)
+  description = "List of files or directories to search for"
 }
 
 variable "cwd" {

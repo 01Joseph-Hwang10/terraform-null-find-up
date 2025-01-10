@@ -6,7 +6,7 @@ data "external" "find_up" {
   ]
 
   query = {
-    "targets" = var.targets
+    "targets" = join(",", var.targets)
     "cwd"     = var.cwd
   }
 }

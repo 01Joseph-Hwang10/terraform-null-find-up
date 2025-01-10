@@ -6,7 +6,6 @@
   "packages": {
     ".": {
       "release-type": "simple",
-      "package-name": "terraform-gcp-modules",
       "exclude-paths": [
         "docs",
         "tests",

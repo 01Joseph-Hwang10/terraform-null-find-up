@@ -17,7 +17,7 @@ Basic usage:
 module "workspace_root" {
   source = "01Joseph-Hwang10/find-up/null"
 
-  targets = "requirements.txt"
+  targets = ["requirements.txt"]
 }
 ```
 
